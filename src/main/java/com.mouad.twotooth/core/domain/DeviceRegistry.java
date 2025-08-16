@@ -1,4 +1,4 @@
-package com.mouad.twotooth.core.domain;
+package main.java.com.mouad.twotooth.core.domain;
 
 import java.util.Collections;
 import java.util.HashMap;

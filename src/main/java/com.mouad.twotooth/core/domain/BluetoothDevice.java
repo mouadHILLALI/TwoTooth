@@ -1,4 +1,4 @@
-package com.mouad.twotooth.core.domain;
+package main.java.com.mouad.twotooth.core.domain;
 
 public class BluetoothDevice {
 

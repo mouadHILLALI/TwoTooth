@@ -1,7 +1,10 @@
-package com.mouad.twotooth.core.port.output;
+package main.java.com.mouad.twotooth.core.port.output;
 
-import java.util.List;
+import main.java.com.mouad.twotooth.core.domain.BluetoothDevice;
+
+import javax.bluetooth.BluetoothStateException;
+import java.util.Set;
 
 public interface DeviceScannerPort { 
-    List<BluetoothDevice> scanAvailableDevices();
+    Set<BluetoothDevice> scanAvailableDevices() throws BluetoothStateException, InterruptedException;
 }
