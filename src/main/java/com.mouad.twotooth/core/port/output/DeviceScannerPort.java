@@ -1,10 +1,11 @@
-package main.java.com.mouad.twotooth.core.port.output;
+package com.mouad.twotooth.core.port.output;
 
-import main.java.com.mouad.twotooth.core.domain.BluetoothDevice;
+import com.mouad.twotooth.core.domain.Device;
 
 import javax.bluetooth.BluetoothStateException;
+import java.net.UnknownHostException;
 import java.util.Set;
 
 public interface DeviceScannerPort { 
-    Set<BluetoothDevice> scanAvailableDevices() throws BluetoothStateException, InterruptedException;
+    Set<Device> discoverDevices() throws UnknownHostException;
 }
