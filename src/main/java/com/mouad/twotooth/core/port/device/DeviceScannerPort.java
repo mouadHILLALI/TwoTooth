@@ -1,8 +1,7 @@
-package com.mouad.twotooth.core.port.output;
+package com.mouad.twotooth.core.port.device;
 
 import com.mouad.twotooth.core.domain.Device;
 
-import javax.bluetooth.BluetoothStateException;
 import java.net.UnknownHostException;
 import java.util.Set;
 

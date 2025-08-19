@@ -1,8 +1,8 @@
-package com.mouad.twotooth.infrastructure.adpater.bleutooth;
+package com.mouad.twotooth.infrastructure.adpater.Device;
 
 
 import com.mouad.twotooth.core.domain.Device;
-import com.mouad.twotooth.core.port.output.DeviceScannerPort;
+import com.mouad.twotooth.core.port.device.DeviceScannerPort;
 
 import javax.jmdns.JmDNS;
 import javax.jmdns.ServiceEvent;
